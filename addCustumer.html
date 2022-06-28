@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/style.css">
+    <script   src="js/addCustmor.js"></script>
 
   </head>
   <body>
@@ -26,13 +27,14 @@
 
     <div class="contener">
 
-      <form action="login.js">
+      <form action="addCustumer.html" onsubmit=" myFunction()" name="myForm">
         <label >Name</label>
-        <input type="name" class="inpu" name="name" placeholder="Enter Custumer Email.." />
+        <input id="customerName" type="name" class="inpu" name="name" placeholder="Enter Custumer Name.." />
 
        
+        <!-- <button class="submit" type="button"  value="Submit" type="submit" onclick="myFunction()">Submit</button> -->
 
-        <input class="submit" type="submit" value="Submit" />
+        <input type="submit" class="submit" type="button" value="Submit"    />
       </form>
     </div>
 </div>
